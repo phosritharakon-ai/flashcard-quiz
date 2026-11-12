@@ -1,0 +1,21 @@
+# CLAUDE.md (renamed to .txt for submission) - harness for the coding agent
+
+## Task
+Build ONE Python 3 program: a flashcard quiz study tool (flashcards.py).
+
+## Context
+- Student assignment. Program must be my own idea, run with `python3`,
+  take input (keyboard / file / command-line args), and handle invalid input.
+- Standard library only. No pip installs.
+- Single file, under ~120 lines, beginner-readable.
+
+## Rules
+1. File must start with a comment block: what it does + how to run it.
+2. Never crash on bad input: wrong type, out of range, missing file,
+   empty file, malformed CSV rows, Ctrl+C, Ctrl+D (EOF).
+3. Ask me for a PLAN first. Do not write or run code until I approve it.
+4. Do not install packages, touch files outside the project folder,
+   or run network commands.
+5. After writing code, run it and the tests, and show me the real output.
+6. Do not edit my test file (test_flashcards.py) to make tests pass;
+   fix the program instead.

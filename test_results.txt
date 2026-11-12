@@ -1,0 +1,19 @@
+test_T5_lower_bound (__main__.TestAskNumber.test_T5_lower_bound) ... ok
+test_T6_upper_bound_and_out_of_range (__main__.TestAskNumber.test_T6_upper_bound_and_out_of_range) ... Number must be between 1 and 5.
+Number must be between 1 and 5.
+ok
+test_T7_non_numbers (__main__.TestAskNumber.test_T7_non_numbers) ... Please enter a whole number (or 'q' to quit).
+Please enter a whole number (or 'q' to quit).
+Please enter a whole number (or 'q' to quit).
+ok
+test_T8_quit (__main__.TestAskNumber.test_T8_quit) ... ok
+test_T1_valid (__main__.TestLoadCards.test_T1_valid) ... ok
+test_T2_empty_file (__main__.TestLoadCards.test_T2_empty_file) ... ok
+test_T3_missing_file (__main__.TestLoadCards.test_T3_missing_file) ... File not found: no_such_file.csv
+ok
+test_T4_bad_rows_skipped (__main__.TestLoadCards.test_T4_bad_rows_skipped) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.008s
+
+OK

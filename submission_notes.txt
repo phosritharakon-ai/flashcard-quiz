@@ -1,0 +1,19 @@
+THE HARNESS - Submission notes
+
+Coding agent: Claude (Sonnet 5.5) in the claude.ai chat
+
+=== 1. PROMPTS (in order, as actually sent) ===
+Prompt 1: [screenshot of Room 1 assignment] + "ทำยังไง ทำให้หน่อย"
+Prompt 2: [screenshot of Room 2 assignment] + (no text)
+Prompt 3: <<< paste your next real prompts here, unedited >>>
+
+=== 2. WHAT GOES IN ===
+See CLAUDE_harness.txt (task, context, rules).
+
+=== 3. WHAT COMES OUT ===
+Test file: test_flashcards.py (8 cases T1-T8, boundary cases T2, T5, T6, T7, T8)
+Result: see test_results.txt -> "Ran 8 tests ... OK"
+
+=== 4. WHAT IT DOES ===
+Plan I asked the agent for before running: <<< paste the agent's plan here >>>
+Where I stopped/corrected/rejected the agent: <<< write what you rejected and WHY >>>
